@@ -221,13 +221,14 @@ box-sizing: border-box;
 gap: 50px;
 }
 .schedule-section {
-  flex: 1;
+  flex: 0 0 40%;
   display: flex;
   flex-direction:row;
 }
 .tasks-section {
   width: 800px;
   flex-shrink: 0;
+  flex: 0 0 55%;
 }
 
 .tasks-header {
