@@ -1,7 +1,7 @@
 html {
   font-size: 90%; }
 body {
-      background-color:#201F1F ;
+      background-color:#0E0E0E ;
       color:white;
       font-family: "Inter", sans-serif;
       font-optical-sizing: auto;
@@ -103,7 +103,7 @@ p {
   max-width: 1400px;
   margin: 0 auto;
   margin-top: 70px;
-  font-size: 11px;
+  font-size: 13.5px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #71717A;
@@ -253,10 +253,43 @@ gap: 50px;
   text-decoration: none;
 }
 
-@media (max-width: 1400px) {
-  body {
-    font-size: 14px;  }
-  .card {
-    padding: 15px;  
-  }
+.bar {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 8px;
+  background-color: #444;
+  border-radius: 4px;
+  width: 100%;
+
+}
+.bar.highlighted{
+  position: relative;
+  z-index: 10;
+  height: 8px;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  background-color: #a389f4;
+}
+
+.bar.notactive {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 4px;
+  width: 100%;
+
+}
+.big-text{
+  font-size: 5rem;
+}
+.bar.hidden{
+  position: relative;
+  z-index: 10;
+  height: 8px;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  background-color: #52525B;
 }
