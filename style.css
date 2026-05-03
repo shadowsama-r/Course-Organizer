@@ -1,4 +1,3 @@
-/* --- GLOBAL RESET & TYPOGRAPHY --- */
 html {
   font-size: 90%; 
   box-sizing: border-box;
@@ -94,7 +93,6 @@ body {
   cursor: pointer;
 }
 
-/* --- LAYOUT TYPOGRAPHY & HEADERS --- */
 p {
   display: inline-block;
   margin-right: 3.5rem;
@@ -127,7 +125,7 @@ p {
   border-radius: 0.3rem;
 }
 
-/* --- COMPONENT BLOCKS --- */
+
 .block-container {
   display: flex;
   gap: 3.5rem;
@@ -147,7 +145,7 @@ p {
   justify-content: space-between;
 }
 
-/* --- TIMELINE MATRIX --- */
+
 .timeline {
   position: relative;
   padding-left: 2.8rem;
@@ -181,7 +179,7 @@ p {
   color: #666;
 }
 
-/* --- CARDS & PROGRESS BARS --- */
+
 .card {
   background-color: #1a1a1a;
   padding: 1.4rem;
@@ -262,7 +260,7 @@ p {
   background-color: #52525B;
 }
 
-/* --- DASHBOARD STRUCTURE --- */
+
 .dashboard {
   justify-content: space-between;
   display: flex;
@@ -312,7 +310,7 @@ p {
   text-decoration: none;
 }
 
-/* --- FORMS & INPUTS --- */
+
 .form-container {
   padding: 3%;
   margin-left: 3%;
@@ -391,7 +389,7 @@ input::placeholder {
   cursor: pointer;
 }
 
-/* --- CONTACT MODULE --- */
+
 .contact-page {
   display: flex;
   gap: 2rem;
@@ -469,11 +467,7 @@ input::placeholder {
   color: #71717A;
 }
 
-/* =========================================================
-   TACTICAL OVERRIDES: RESPONSIVE BEHAVIOR (DO NOT MODIFY)
-   ========================================================= */
 
-/* TABLET DEPLOYMENT (Under 1024px) */
 @media (max-width: 1024px) {
   .big-header {
     font-size: 3.5rem;
@@ -501,9 +495,8 @@ input::placeholder {
 
 }
 
-/* MOBILE DEPLOYMENT (Under 768px) */
+
 @media (max-width: 768px) {
-  /* Force inline flex rows to stack safely */
   div[style*="display: flex"] {
     flex-direction: column !important;
     gap: 1.5rem !important;
@@ -567,7 +560,6 @@ input::placeholder {
   }
 }
 
-/* MICRO-SCREEN DEPLOYMENT (Under 430px) */
 @media (max-width: 430px) {
   .nav-links {
     margin-left: 0;
